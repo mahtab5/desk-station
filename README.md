@@ -52,29 +52,6 @@ Install these from the Arduino Library Manager:
 
 ---
 
-## Linux setup
-
-Requires Python 3 and pyserial:
-
-```bash
-pip3 install pyserial
-```
-
-Check which port the Arduino is on:
-```bash
-dmesg | grep tty
-```
-
-Update the port in `control.py` if needed (default is `/dev/ttyACM1`).
-
-Install the desk command:
-```bash
-sudo cp desk /usr/local/bin/desk
-sudo chmod +x /usr/local/bin/desk
-```
-
----
-
 ## Commands
 
 ```bash
@@ -91,15 +68,4 @@ desk watchstop      # pause stopwatch
 desk watchreset     # reset stopwatch
 desk led_off        # turn off LEDs
 desk buzzer_off     # silence buzzer
-```
-
----
-
-## Files
-
-```
-desk_station.ino    Arduino sketch
-control.py          Python serial script
-desk                Bash wrapper script
-README.md
 ```
