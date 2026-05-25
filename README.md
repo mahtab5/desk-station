@@ -2,7 +2,6 @@
 
 A desk tool built with Arduino that monitors room temperature and humidity, and lets you run a timer or stopwatch from the Linux terminal.
 
----
 
 ## What it does
 
@@ -13,7 +12,8 @@ A desk tool built with Arduino that monitors room temperature and humidity, and 
 - Buzzer beeps when timer starts, pauses, or finishes
 - Everything controlled from Linux terminal using the `desk` command
 
----
+
+
 
 ## Hardware used
 
@@ -23,7 +23,8 @@ A desk tool built with Arduino that monitors room temperature and humidity, and 
 - TM1637 4-digit display
 - Red, yellow, green LEDs
 - Passive piezo buzzer
-- 220Ω resistors (x3 for LEDs), 10kΩ resistors (x2 for I2C pull-ups)
+- 220Ω resistors (x3 for LEDs)
+
 
 ### Pin connections
 
@@ -39,17 +40,16 @@ A desk tool built with Arduino that monitors room temperature and humidity, and 
 | LCD SDA/SCL | A4/A5 |
 
 
----
+
 
 ## Arduino libraries
 
-Install these from the Arduino Library Manager:
 - DHT sensor library (Adafruit)
 - Adafruit Unified Sensor
 - LiquidCrystal I2C (Frank de Brabander)
 - TM1637Display (Avishay Orpaz)
 
----
+
 
 ## Commands
 
