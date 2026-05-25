@@ -6,12 +6,12 @@ A smart desk companion built on an Arduino Uno, controlled entirely from a Linux
 
 ## Features
 
-- **Real-time environment monitoring** — temperature, humidity, and a comfort score out of 100
-- **Countdown timer** — set any duration, use Pomodoro (25 min) or break (5 min) presets
-- **Stopwatch** — independent reading/session tracker on a dedicated 4-digit display
-- **LED indicators** — green, yellow, or red based on comfort score
-- **Buzzer alerts** — beeps on timer start, pause, and completion
-- **Full Linux control** — single `desk` command controls everything from the terminal
+- **Real-time environment monitoring**: temperature, humidity, and a comfort score out of 100
+- **Countdown timer**: set any duration, use Pomodoro (25 min) or break (5 min) presets
+- **Stopwatch**: independent reading/session tracker on a dedicated 4-digit display
+- **LED indicators**: green, yellow, or red based on comfort score
+- **Buzzer alerts**: beeps on timer start, pause, and completion
+- **Full Linux control**: single `desk` command controls everything from the terminal
 
 ---
 
