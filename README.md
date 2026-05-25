@@ -38,7 +38,6 @@ A desk tool built with Arduino that monitors room temperature and humidity, and 
 | Buzzer | D8 |
 | LCD SDA/SCL | A4/A5 |
 
-> Important: you need 10kΩ pull-up resistors on SDA and SCL to 5V or the I2C won't work.
 
 ---
 
